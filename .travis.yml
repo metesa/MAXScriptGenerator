@@ -1,0 +1,4 @@
+language: csharp
+solution: MAXScriptGenerator.sln
+script:
+  - xbuild /p:Configuration=Release MAXScriptGenerator.sln
